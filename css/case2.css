@@ -1,0 +1,126 @@
+  body {
+      margin: 0;
+  }
+
+  .header {
+      background-color: white;
+      padding: 5px 10px;
+      height: 50px;
+      display: flex;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 1.2rem;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 5px solid black;
+  }
+
+  .logo img {
+      height: 60px;
+      width: auto;
+  }
+
+
+  .nav-menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 40px;
+  }
+
+  .nav-menu li {
+      display: inline;
+  }
+
+  .nav-menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+  }
+
+  .nav-menu a:hover {
+      text-decoration: underline;
+  }
+
+  .left-menu {
+
+      height: 100vh;
+      width: 200px;
+      box-sizing: border-box;
+      border: 2px solid purple;
+      background-color: rgb(78, 25, 128);
+
+  }
+
+  .left-menu li {
+
+      display: table-row;
+      margin: 15px 0;
+
+
+  }
+
+  .left-menu a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 1.2rem;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 20px;
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      left: 202px;
+  }
+
+  .box {
+      width: 230px;
+      height: 180px;
+      border: 1px solid black;
+      display: flex;
+
+
+  }
+
+  .box img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .paragraphs {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 210px;
+      position: absolute;
+      top: 250px;
+  }
+
+  .paragraphs p {
+      margin-bottom: 10px;
+      font-size: 14px;
+
+  }
+
+  .footer {
+      background-color: gray;
+      color: white;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+
+  }
